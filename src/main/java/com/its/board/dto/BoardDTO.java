@@ -21,8 +21,9 @@ public class BoardDTO {
     private LocalDateTime createdTime;
     private LocalDateTime updatedTime;
 
-    private MultipartFile boardFile; //실제파일
-    private String boardFileName; //파일이름
+    private MultipartFile boardFile; // 실제 파일
+    private String boardFileName; // 파일 이름
+
 
     public BoardDTO(Long id, String boardTitle, String boardWriter, int boardHits, LocalDateTime createdTime) {
         this.id = id;
